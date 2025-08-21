@@ -24,7 +24,7 @@ Developed by: PRIYA.B
 RegisterNumber: 212224230208
 
 ```
-
+```
 import pandas as pd
 import numpy as np
 from sklearn.metrics import mean_absolute_error,mean_squared_error
@@ -68,7 +68,7 @@ mae=mean_absolute_error(y_test,y_pred)
 print('Mean Absolute Error = ',mae)
 rmse=np.sqrt(mse)
 print("Root Mean Square Error = ",rmse)
-
+```
 
 ## Output:
 
